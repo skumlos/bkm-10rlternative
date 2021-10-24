@@ -1,0 +1,513 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_ATmega:ATmega2560-16AU U?
+U 1 1 61BBE23B
+P 3250 4300
+F 0 "U?" H 2650 1500 50  0000 C CNN
+F 1 "ATmega2560-16AU" H 3800 1500 50  0000 C CNN
+F 2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" H 3250 4300 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2549-8-bit-AVR-Microcontroller-ATmega640-1280-1281-2560-2561_datasheet.pdf" H 3250 4300 50  0001 C CNN
+	1    3250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Resonator Y?
+U 1 1 61BC9B66
+P 1950 2000
+F 0 "Y?" V 1904 2110 50  0000 L CNN
+F 1 "Resonator" V 1995 2110 50  0000 L CNN
+F 2 "" H 1925 2000 50  0001 C CNN
+F 3 "~" H 1925 2000 50  0001 C CNN
+	1    1950 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0202
+U 1 1 61BCAE02
+P 1750 2000
+F 0 "#PWR0202" H 1750 1750 50  0001 C CNN
+F 1 "GND" V 1755 1872 50  0000 R CNN
+F 2 "" H 1750 2000 50  0001 C CNN
+F 3 "" H 1750 2000 50  0001 C CNN
+	1    1750 2000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 1850 1950 1800
+Wire Wire Line
+	1950 1800 2150 1800
+Wire Wire Line
+	2150 1800 2150 1900
+Wire Wire Line
+	2150 1900 2450 1900
+Wire Wire Line
+	1950 2150 1950 2200
+Wire Wire Line
+	1950 2200 2150 2200
+Wire Wire Line
+	2150 2200 2150 2100
+Wire Wire Line
+	2150 2100 2450 2100
+$Comp
+L power:GND #PWR0203
+U 1 1 61BD26C5
+P 3250 7200
+F 0 "#PWR0203" H 3250 6950 50  0001 C CNN
+F 1 "GND" H 3255 7027 50  0000 C CNN
+F 2 "" H 3250 7200 50  0001 C CNN
+F 3 "" H 3250 7200 50  0001 C CNN
+	1    3250 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0204
+U 1 1 61BD4CA2
+P 2450 2300
+F 0 "#PWR0204" H 2450 2050 50  0001 C CNN
+F 1 "GND" V 2455 2172 50  0000 R CNN
+F 2 "" H 2450 2300 50  0001 C CNN
+F 3 "" H 2450 2300 50  0001 C CNN
+	1    2450 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61BD52BB
+P 3700 1150
+F 0 "C?" V 3471 1150 50  0000 C CNN
+F 1 "10uF" V 3562 1150 50  0000 C CNN
+F 2 "" H 3700 1150 50  0001 C CNN
+F 3 "~" H 3700 1150 50  0001 C CNN
+	1    3700 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61BD5AF6
+P 2850 1150
+F 0 "C?" V 2621 1150 50  0000 C CNN
+F 1 "10uF" V 2712 1150 50  0000 C CNN
+F 2 "" H 2850 1150 50  0001 C CNN
+F 3 "~" H 2850 1150 50  0001 C CNN
+	1    2850 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61BD87FD
+P 2850 1300
+F 0 "C?" V 2950 1400 50  0000 C CNN
+F 1 "100nF" V 2950 1150 50  0000 C CNN
+F 2 "" H 2850 1300 50  0001 C CNN
+F 3 "~" H 2850 1300 50  0001 C CNN
+	1    2850 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 61BDF233
+P 3700 1300
+F 0 "C?" V 3800 1400 50  0000 C CNN
+F 1 "100nF" V 3800 1150 50  0000 C CNN
+F 2 "" H 3700 1300 50  0001 C CNN
+F 3 "~" H 3700 1300 50  0001 C CNN
+	1    3700 1300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 1300 3250 1300
+Wire Wire Line
+	3250 1300 3250 1400
+Wire Wire Line
+	2950 1150 3250 1150
+Wire Wire Line
+	3250 1150 3250 1300
+Connection ~ 3250 1300
+Wire Wire Line
+	3350 1400 3350 1300
+Wire Wire Line
+	3350 1150 3600 1150
+Wire Wire Line
+	3350 1300 3600 1300
+Connection ~ 3350 1300
+Wire Wire Line
+	3350 1300 3350 1150
+Wire Wire Line
+	3250 1150 3350 1150
+Connection ~ 3250 1150
+Connection ~ 3350 1150
+$Comp
+L power:VCC #PWR0205
+U 1 1 61BE67E9
+P 3350 1150
+F 0 "#PWR0205" H 3350 1000 50  0001 C CNN
+F 1 "VCC" H 3365 1323 50  0000 C CNN
+F 2 "" H 3350 1150 50  0001 C CNN
+F 3 "" H 3350 1150 50  0001 C CNN
+	1    3350 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 1150 2700 1150
+Wire Wire Line
+	2700 1150 2700 1250
+Wire Wire Line
+	2700 1300 2750 1300
+Wire Wire Line
+	3800 1150 3850 1150
+Wire Wire Line
+	3850 1150 3850 1250
+Wire Wire Line
+	3850 1300 3800 1300
+$Comp
+L power:GND #PWR0206
+U 1 1 61C205DE
+P 2700 1250
+F 0 "#PWR0206" H 2700 1000 50  0001 C CNN
+F 1 "GND" V 2705 1122 50  0000 R CNN
+F 2 "" H 2700 1250 50  0001 C CNN
+F 3 "" H 2700 1250 50  0001 C CNN
+	1    2700 1250
+	0    1    1    0   
+$EndComp
+Connection ~ 2700 1250
+Wire Wire Line
+	2700 1250 2700 1300
+$Comp
+L power:GND #PWR0207
+U 1 1 61C20B29
+P 3850 1250
+F 0 "#PWR0207" H 3850 1000 50  0001 C CNN
+F 1 "GND" V 3855 1122 50  0000 R CNN
+F 2 "" H 3850 1250 50  0001 C CNN
+F 3 "" H 3850 1250 50  0001 C CNN
+	1    3850 1250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3850 1250
+Wire Wire Line
+	3850 1250 3850 1300
+Text GLabel 4050 5300 2    50   Input ~ 0
+UART0_RXD
+Text GLabel 4050 5400 2    50   Input ~ 0
+UART0_TXD
+Text GLabel 4050 5500 2    50   Input ~ 0
+UART_RTS
+$Comp
+L Interface_UART:MAX485E U?
+U 1 1 61C26FF0
+P 8050 1550
+F 0 "U?" H 7800 1000 50  0000 C CNN
+F 1 "MAX485E" H 8350 1000 50  0000 C CNN
+F 2 "" H 8050 850 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 8050 1600 50  0001 C CNN
+	1    8050 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 5600 2    50   Input ~ 0
+UART_CTS
+Text GLabel 7650 1650 0    50   Input ~ 0
+UART_RTS
+Text GLabel 7650 1550 0    50   Input ~ 0
+UART_CTS
+Text GLabel 7650 1450 0    50   Input ~ 0
+UART0_RXD
+Text GLabel 7650 1750 0    50   Input ~ 0
+UART0_TXD
+$Comp
+L Device:C_Small C?
+U 1 1 61C2CA52
+P 7850 1000
+F 0 "C?" V 7750 1000 50  0000 C CNN
+F 1 "100nF" V 7950 1000 50  0000 C CNN
+F 2 "" H 7850 1000 50  0001 C CNN
+F 3 "~" H 7850 1000 50  0001 C CNN
+	1    7850 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0208
+U 1 1 61C3511E
+P 8050 2150
+F 0 "#PWR0208" H 8050 1900 50  0001 C CNN
+F 1 "GND" H 8055 1977 50  0000 C CNN
+F 2 "" H 8050 2150 50  0001 C CNN
+F 3 "" H 8050 2150 50  0001 C CNN
+	1    8050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0209
+U 1 1 61C36BCE
+P 8050 950
+F 0 "#PWR0209" H 8050 800 50  0001 C CNN
+F 1 "VCC" H 8065 1123 50  0000 C CNN
+F 2 "" H 8050 950 50  0001 C CNN
+F 3 "" H 8050 950 50  0001 C CNN
+	1    8050 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 950  8050 1000
+Wire Wire Line
+	7950 1000 8050 1000
+Connection ~ 8050 1000
+Wire Wire Line
+	8050 1000 8050 1050
+$Comp
+L power:GND #PWR0210
+U 1 1 61C39884
+P 7750 1000
+F 0 "#PWR0210" H 7750 750 50  0001 C CNN
+F 1 "GND" V 7755 872 50  0000 R CNN
+F 2 "" H 7750 1000 50  0001 C CNN
+F 3 "" H 7750 1000 50  0001 C CNN
+	1    7750 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:DB9_Male_MountingHoles J?
+U 1 1 61C3EEAC
+P 9950 1550
+F 0 "J?" H 9900 2150 50  0000 L CNN
+F 1 "DB9_Male_MountingHoles" V 10200 1100 50  0000 L CNN
+F 2 "" H 9950 1550 50  0001 C CNN
+F 3 " ~" H 9950 1550 50  0001 C CNN
+	1    9950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0211
+U 1 1 61C3F8C5
+P 9950 2150
+F 0 "#PWR0211" H 9950 1900 50  0001 C CNN
+F 1 "GND" H 9955 1977 50  0000 C CNN
+F 2 "" H 9950 2150 50  0001 C CNN
+F 3 "" H 9950 2150 50  0001 C CNN
+	1    9950 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 1750 2    50   Input ~ 0
+RS485_A
+$Comp
+L Device:R_Small R?
+U 1 1 61C56129
+P 8600 1600
+F 0 "R?" H 8659 1646 50  0000 L CNN
+F 1 "100R" H 8659 1555 50  0000 L CNN
+F 2 "" H 8600 1600 50  0001 C CNN
+F 3 "~" H 8600 1600 50  0001 C CNN
+	1    8600 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1450 8600 1450
+Wire Wire Line
+	8600 1500 8600 1450
+Connection ~ 8600 1450
+Wire Wire Line
+	8600 1450 8750 1450
+Wire Wire Line
+	8450 1750 8600 1750
+Wire Wire Line
+	8600 1700 8600 1750
+Connection ~ 8600 1750
+Wire Wire Line
+	8600 1750 8750 1750
+$Comp
+L power:GND #PWR0212
+U 1 1 61C5D34A
+P 9650 1950
+F 0 "#PWR0212" H 9650 1700 50  0001 C CNN
+F 1 "GND" V 9655 1822 50  0000 R CNN
+F 2 "" H 9650 1950 50  0001 C CNN
+F 3 "" H 9650 1950 50  0001 C CNN
+	1    9650 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0213
+U 1 1 61C5DB94
+P 9650 1850
+F 0 "#PWR0213" H 9650 1600 50  0001 C CNN
+F 1 "GND" V 9655 1722 50  0000 R CNN
+F 2 "" H 9650 1850 50  0001 C CNN
+F 3 "" H 9650 1850 50  0001 C CNN
+	1    9650 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0214
+U 1 1 61C5DC4E
+P 9650 1250
+F 0 "#PWR0214" H 9650 1000 50  0001 C CNN
+F 1 "GND" V 9655 1122 50  0000 R CNN
+F 2 "" H 9650 1250 50  0001 C CNN
+F 3 "" H 9650 1250 50  0001 C CNN
+	1    9650 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0215
+U 1 1 61C5E0A7
+P 9650 1350
+F 0 "#PWR0215" H 9650 1100 50  0001 C CNN
+F 1 "GND" V 9655 1222 50  0000 R CNN
+F 2 "" H 9650 1350 50  0001 C CNN
+F 3 "" H 9650 1350 50  0001 C CNN
+	1    9650 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0216
+U 1 1 61C5EA2B
+P 9650 1150
+F 0 "#PWR0216" H 9650 1000 50  0001 C CNN
+F 1 "+5V" V 9665 1278 50  0000 L CNN
+F 2 "" H 9650 1150 50  0001 C CNN
+F 3 "" H 9650 1150 50  0001 C CNN
+	1    9650 1150
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 9650 1550
+NoConn ~ 9650 1450
+Text GLabel 9650 1650 0    50   Input ~ 0
+RS485_A
+Text GLabel 8750 1450 2    50   Input ~ 0
+RS485_B
+Text GLabel 9650 1750 0    50   Input ~ 0
+RS485_B
+$Comp
+L power:VCC #PWR0217
+U 1 1 61C70D85
+P 2450 1700
+F 0 "#PWR0217" H 2450 1550 50  0001 C CNN
+F 1 "VCC" V 2450 1900 50  0000 C CNN
+F 2 "" H 2450 1700 50  0001 C CNN
+F 3 "" H 2450 1700 50  0001 C CNN
+	1    2450 1700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2450 2600 0    50   Input ~ 0
+SHIFT_ACTIVE_LED
+Text GLabel 2450 2800 0    50   Input ~ 0
+HORIZ_SYNC_ACTIVE_LED
+Text GLabel 2450 2700 0    50   Input ~ 0
+UNDERSCAN_16_9_ACTIVE_LED
+Text GLabel 2450 2900 0    50   Input ~ 0
+VERT_BLUE_ONLY_ACTIVE_LED
+Text GLabel 2450 3000 0    50   Input ~ 0
+MONO_R_ACTIVE_LED
+Text GLabel 2450 3100 0    50   Input ~ 0
+APT_G_ACTIVE_LED
+Text GLabel 2450 3200 0    50   Input ~ 0
+COMB_B_ACTIVE_LED
+Text GLabel 2450 3300 0    50   Input ~ 0
+F1_F3_ACTIVE_LED
+Text GLabel 2450 3500 0    50   Input ~ 0
+F2_F4_ACTIVE_LED
+Text GLabel 2450 3600 0    50   Input ~ 0
+ADDR_SAFE_AREA_ACTIVE_LED
+Text GLabel 2450 3700 0    50   Input ~ 0
+CONTRAST_MANUAL_ACTIVE_LED
+Text GLabel 2450 3800 0    50   Input ~ 0
+BRIGHT_MANUAL_ACTIVE_LED
+Text GLabel 2450 3900 0    50   Input ~ 0
+CHROMA_MANUAL_ACTIVE_LED
+Text GLabel 2450 4000 0    50   Input ~ 0
+PHASE_MANUAL_ACTIVE_LED
+Text GLabel 4050 2600 2    50   Input ~ 0
+CONTRAST_A
+Text GLabel 4050 2700 2    50   Input ~ 0
+CONTRAST_B
+Text GLabel 4050 2800 2    50   Input ~ 0
+BRIGHT_A
+Text GLabel 4050 2900 2    50   Input ~ 0
+BRIGHT_B
+Text GLabel 4050 3000 2    50   Input ~ 0
+CHROMA_A
+Text GLabel 4050 3100 2    50   Input ~ 0
+CHROMA_B
+Text GLabel 4050 3200 2    50   Input ~ 0
+PHASE_A
+Text GLabel 4050 3300 2    50   Input ~ 0
+PHASE_B
+Text GLabel 4050 3500 2    50   Input ~ 0
+SHIFT_SW_IN
+Text GLabel 4050 3800 2    50   Input ~ 0
+VERT_BLUE_ONLY_SW_IN
+Text GLabel 4050 3900 2    50   Input ~ 0
+MONO_R_SW_IN
+Text GLabel 4050 4100 2    50   Input ~ 0
+COMB_B_SW_IN
+Text GLabel 4050 4200 2    50   Input ~ 0
+F1_F3_SW_IN
+Text GLabel 4050 4400 2    50   Input ~ 0
+F2_F4_SW_IN
+Text GLabel 4050 4000 2    50   Input ~ 0
+APT_G_SW_IN
+Text GLabel 4050 4500 2    50   Input ~ 0
+ADDR_SAFE_AREA_SW_IN
+Text GLabel 4050 3600 2    50   Input ~ 0
+UNDERSCAN_16_9_SW_IN
+Text GLabel 4050 3700 2    50   Input ~ 0
+HORIZ_SYNC_SW_IN
+Text GLabel 4050 4700 2    50   Input ~ 0
+DOWN_SW_IN
+Text GLabel 4050 4600 2    50   Input ~ 0
+UP_SW_IN
+Text GLabel 4050 5000 2    50   Input ~ 0
+DEGAUSS_SW_IN
+Text GLabel 4050 4800 2    50   Input ~ 0
+MENU_SW_IN
+Text GLabel 4050 4900 2    50   Input ~ 0
+ENTER_SW_IN
+Text GLabel 4050 5100 2    50   Input ~ 0
+POWER_SW_IN
+Text GLabel 2450 4400 0    50   Input ~ 0
+KEY_1_SW_IN
+Text GLabel 2450 4700 0    50   Input ~ 0
+KEY_4_SW_IN
+Text GLabel 2450 5000 0    50   Input ~ 0
+KEY_7_SW_IN
+Text GLabel 2450 5500 0    50   Input ~ 0
+KEY_DEL_SW_IN
+Text GLabel 2450 4500 0    50   Input ~ 0
+KEY_2_SW_IN
+Text GLabel 2450 4800 0    50   Input ~ 0
+KEY_5_SW_IN
+Text GLabel 2450 5100 0    50   Input ~ 0
+KEY_8_SW_IN
+Text GLabel 2450 5400 0    50   Input ~ 0
+KEY_0_SW_IN
+Text GLabel 2450 4600 0    50   Input ~ 0
+KEY_3_SW_IN
+Text GLabel 2450 4900 0    50   Input ~ 0
+KEY_6_SW_IN
+Text GLabel 2450 5300 0    50   Input ~ 0
+KEY_9_SW_IN
+Text GLabel 2450 5600 0    50   Input ~ 0
+KEY_ENTER_SW_IN
+Text GLabel 4050 2100 2    50   Input ~ 0
+CONTRAST_MANUAL_SW_IN
+Text GLabel 4050 2200 2    50   Input ~ 0
+BRIGHT_MANUAL_SW_IN
+Text GLabel 4050 2300 2    50   Input ~ 0
+CHROMA_MANUAL_SW_IN
+Text GLabel 4050 2400 2    50   Input ~ 0
+PHASE_MANUAL_SW_IN
+$EndSCHEMATC

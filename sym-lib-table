@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name e-switch-tact)(type Legacy)(uri ${KIPRJMOD}/e-switch-tact.lib)(options "")(descr ""))
+)
