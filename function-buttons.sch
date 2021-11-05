@@ -1920,16 +1920,6 @@ F 3 "" H 3900 6550 50  0001 C CNN
 	1    3900 6550
 	0    -1   -1   0   
 $EndComp
-Wire Bus Line
-	3450 850  3450 7150
-Wire Bus Line
-	5400 600  5400 6750
-Wire Bus Line
-	3150 600  3150 6550
-Wire Bus Line
-	8500 600  8500 6250
-Wire Bus Line
-	5750 850  5750 7150
 $Comp
 L power:GND #PWR0282
 U 1 1 61B358A6
@@ -1952,4 +1942,14 @@ F 3 "" H 2900 6950 50  0001 C CNN
 	1    2900 6950
 	0    -1   -1   0   
 $EndComp
+Wire Bus Line
+	3450 850  3450 7150
+Wire Bus Line
+	5400 600  5400 6750
+Wire Bus Line
+	3150 600  3150 6550
+Wire Bus Line
+	8500 600  8500 6250
+Wire Bus Line
+	5750 850  5750 7150
 $EndSCHEMATC
