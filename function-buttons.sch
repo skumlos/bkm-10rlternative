@@ -366,46 +366,26 @@ Text Label 5850 2450 0    50   ~ 0
 HORIZ_SYNC_ACT_L
 Text Label 5850 1300 0    50   ~ 0
 SHIFT_ACT_L
-Text GLabel 7200 1100 2    50   Input ~ 0
+Text GLabel 7300 1100 2    50   Input ~ 0
 SHIFT_ACTIVE_LED
-Text GLabel 7200 2250 2    50   Input ~ 0
+Text GLabel 7300 2250 2    50   Input ~ 0
 HORIZ_SYNC_ACTIVE_LED
-Text GLabel 7200 1600 2    50   Input ~ 0
+Text GLabel 7300 1600 2    50   Input ~ 0
 UNDERSCAN_16_9_ACTIVE_LED
-Text GLabel 7200 2750 2    50   Input ~ 0
+Text GLabel 7300 2750 2    50   Input ~ 0
 VERT_BLUE_ONLY_ACTIVE_LED
-Text GLabel 7200 3400 2    50   Input ~ 0
+Text GLabel 7300 3400 2    50   Input ~ 0
 MONO_R_ACTIVE_LED
-Text GLabel 7200 3900 2    50   Input ~ 0
+Text GLabel 7300 3900 2    50   Input ~ 0
 APT_G_ACTIVE_LED
-Text GLabel 7200 4550 2    50   Input ~ 0
+Text GLabel 7300 4550 2    50   Input ~ 0
 COMB_B_ACTIVE_LED
-Text GLabel 7200 5050 2    50   Input ~ 0
+Text GLabel 7300 5050 2    50   Input ~ 0
 F1_F3_ACTIVE_LED
-Text GLabel 7200 5700 2    50   Input ~ 0
+Text GLabel 7300 5700 2    50   Input ~ 0
 F2_F4_ACTIVE_LED
-Text GLabel 7200 6200 2    50   Input ~ 0
+Text GLabel 7300 6200 2    50   Input ~ 0
 ADDR_SAFE_AREA_ACTIVE_LED
-Wire Wire Line
-	7100 6200 7200 6200
-Wire Wire Line
-	6750 5700 7200 5700
-Wire Wire Line
-	7100 5050 7200 5050
-Wire Wire Line
-	6750 4550 7200 4550
-Wire Wire Line
-	7100 3900 7200 3900
-Wire Wire Line
-	6750 3400 7200 3400
-Wire Wire Line
-	7100 2750 7200 2750
-Wire Wire Line
-	6750 2250 7200 2250
-Wire Wire Line
-	7100 1600 7200 1600
-Wire Wire Line
-	6750 1100 7200 1100
 Wire Bus Line
 	3150 600  5400 600 
 Connection ~ 5400 600 
@@ -1942,6 +1922,115 @@ F 3 "" H 2900 6950 50  0001 C CNN
 	1    2900 6950
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:R_Small R104
+U 1 1 618B5DAA
+P 7200 2750
+F 0 "R104" V 7100 2650 50  0000 C CNN
+F 1 "560R" V 7100 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 2750 50  0001 C CNN
+F 3 "~" H 7200 2750 50  0001 C CNN
+	1    7200 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R103
+U 1 1 618C0D1C
+P 7200 2250
+F 0 "R103" V 7100 2150 50  0000 C CNN
+F 1 "560R" V 7100 2350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 2250 50  0001 C CNN
+F 3 "~" H 7200 2250 50  0001 C CNN
+	1    7200 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R101
+U 1 1 618DA142
+P 7200 1100
+F 0 "R101" V 7100 1000 50  0000 C CNN
+F 1 "560R" V 7100 1200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 1100 50  0001 C CNN
+F 3 "~" H 7200 1100 50  0001 C CNN
+	1    7200 1100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 1100 7100 1100
+Wire Wire Line
+	6750 2250 7100 2250
+$Comp
+L Device:R_Small R105
+U 1 1 618EEDA0
+P 7200 3400
+F 0 "R105" V 7100 3300 50  0000 C CNN
+F 1 "560R" V 7100 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 3400 50  0001 C CNN
+F 3 "~" H 7200 3400 50  0001 C CNN
+	1    7200 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R106
+U 1 1 619094EB
+P 7200 3900
+F 0 "R106" V 7100 3800 50  0000 C CNN
+F 1 "560R" V 7100 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 3900 50  0001 C CNN
+F 3 "~" H 7200 3900 50  0001 C CNN
+	1    7200 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R107
+U 1 1 6190C698
+P 7200 4550
+F 0 "R107" V 7100 4450 50  0000 C CNN
+F 1 "560R" V 7100 4650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 4550 50  0001 C CNN
+F 3 "~" H 7200 4550 50  0001 C CNN
+	1    7200 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R108
+U 1 1 6190F8E5
+P 7200 5050
+F 0 "R108" V 7100 4950 50  0000 C CNN
+F 1 "560R" V 7100 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 5050 50  0001 C CNN
+F 3 "~" H 7200 5050 50  0001 C CNN
+	1    7200 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R109
+U 1 1 61913191
+P 7200 5700
+F 0 "R109" V 7100 5600 50  0000 C CNN
+F 1 "560R" V 7100 5800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 5700 50  0001 C CNN
+F 3 "~" H 7200 5700 50  0001 C CNN
+	1    7200 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R110
+U 1 1 6191380E
+P 7200 6200
+F 0 "R110" V 7100 6100 50  0000 C CNN
+F 1 "560R" V 7100 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 6200 50  0001 C CNN
+F 3 "~" H 7200 6200 50  0001 C CNN
+	1    7200 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 3400 7100 3400
+Wire Wire Line
+	6750 4550 7100 4550
+Wire Wire Line
+	6750 5700 7100 5700
 Wire Bus Line
 	3450 850  3450 7150
 Wire Bus Line
@@ -1952,4 +2041,15 @@ Wire Bus Line
 	8500 600  8500 6250
 Wire Bus Line
 	5750 850  5750 7150
+$Comp
+L Device:R_Small R102
+U 1 1 618D8BE0
+P 7200 1600
+F 0 "R102" V 7100 1500 50  0000 C CNN
+F 1 "560R" V 7100 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7200 1600 50  0001 C CNN
+F 3 "~" H 7200 1600 50  0001 C CNN
+	1    7200 1600
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
