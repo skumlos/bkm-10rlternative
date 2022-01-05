@@ -698,7 +698,7 @@ Wire Wire Line
 	2550 3100 2700 3100
 Text GLabel 4000 3200 2    50   Input ~ 0
 BRIGHT_A
-Text GLabel 4000 2850 2    50   Input ~ 0
+Text GLabel 4200 2850 2    50   Input ~ 0
 BRIGHT_B
 $Comp
 L power:GND #PWR0190
@@ -815,9 +815,9 @@ Wire Wire Line
 Connection ~ 2600 4500
 Wire Wire Line
 	2600 4500 2750 4500
-Text GLabel 4050 4600 2    50   Input ~ 0
+Text GLabel 4250 4600 2    50   Input ~ 0
 CHROMA_A
-Text GLabel 4050 4250 2    50   Input ~ 0
+Text GLabel 4250 4250 2    50   Input ~ 0
 CHROMA_B
 $Comp
 L power:GND #PWR0192
@@ -1443,4 +1443,37 @@ Wire Wire Line
 Connection ~ 1900 5450
 Wire Wire Line
 	1900 5450 2000 5450
+$Comp
+L Device:R_Small R?
+U 1 1 61CFAEB2
+P 4150 4250
+F 0 "R?" V 4050 4150 50  0000 C CNN
+F 1 "1K" V 4050 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4150 4250 50  0001 C CNN
+F 3 "~" H 4150 4250 50  0001 C CNN
+	1    4150 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61D15885
+P 4150 4600
+F 0 "R?" V 4050 4500 50  0000 C CNN
+F 1 "1K" V 4050 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4150 4600 50  0001 C CNN
+F 3 "~" H 4150 4600 50  0001 C CNN
+	1    4150 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 61D279DB
+P 4100 2850
+F 0 "R?" V 4000 2750 50  0000 C CNN
+F 1 "1K" V 4000 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4100 2850 50  0001 C CNN
+F 3 "~" H 4100 2850 50  0001 C CNN
+	1    4100 2850
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

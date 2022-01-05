@@ -301,10 +301,6 @@ F 3 "" H 10400 1150 50  0001 C CNN
 	1    10400 1150
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9700 1200 0    50   Input ~ 0
-RS485_A
-Text GLabel 9700 1300 0    50   Input ~ 0
-RS485_B
 Text GLabel 9450 5350 2    50   Input ~ 0
 F2_F4_ACTIVE_LED
 Text GLabel 9450 5250 2    50   Input ~ 0
@@ -1170,7 +1166,7 @@ L Device:R_Small R53
 U 1 1 61915BEC
 P 8550 2200
 F 0 "R53" H 8609 2246 50  0000 L CNN
-F 1 "100R" H 8609 2155 50  0000 L CNN
+F 1 "NM" H 8609 2155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 8550 2200 50  0001 C CNN
 F 3 "~" H 8550 2200 50  0001 C CNN
 	1    8550 2200
