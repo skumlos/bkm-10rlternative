@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title ""
+Title "BKM-10Rlternative"
 Date ""
 Rev ""
-Comp ""
+Comp "www.immerhax.com"
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title ""
+Title "BKM-10Rlternative"
 Date ""
 Rev ""
-Comp ""
+Comp "www.immerhax.com"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -2031,16 +2031,6 @@ Wire Wire Line
 	6750 4550 7100 4550
 Wire Wire Line
 	6750 5700 7100 5700
-Wire Bus Line
-	3450 850  3450 7150
-Wire Bus Line
-	5400 600  5400 6750
-Wire Bus Line
-	3150 600  3150 6550
-Wire Bus Line
-	8500 600  8500 6250
-Wire Bus Line
-	5750 850  5750 7150
 $Comp
 L Device:R_Small R102
 U 1 1 618D8BE0
@@ -2052,4 +2042,14 @@ F 3 "~" H 7200 1600 50  0001 C CNN
 	1    7200 1600
 	0    1    1    0   
 $EndComp
+Wire Bus Line
+	3450 850  3450 7150
+Wire Bus Line
+	5400 600  5400 6750
+Wire Bus Line
+	3150 600  3150 6550
+Wire Bus Line
+	8500 600  8500 6250
+Wire Bus Line
+	5750 850  5750 7150
 $EndSCHEMATC
