@@ -8,6 +8,10 @@ up pins for porting to regular Atmega328P/Arduino Nano 3.0 board.
 
 Plans on memory card stuff for firmware updates and such via SD cards, is planned, at least to be researched.
 
+While the unit is modeled after the BKM-11R, the wiring of the serial port is done like the BKM-10R, meaning
+it uses a straight through male-male RS232/DE-9 cable, just like the BKM-10R. It is therefore not compatible
+with BKM-11R DE-9 -> mini-DIN cables, unless you make your own.
+
 Inspired by Aaron Bonhams BKM-10Rduino, which is genious!
 
 (2022) Martin Hejnfelt, martin@hejnfelt.com
