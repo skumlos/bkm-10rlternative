@@ -11,7 +11,7 @@ gets power, and it thus needs to have its LED states updated.
 Also the "ticks" of the encoders are kinda weird, it's at least not just "how far the encoder has moved", as that
 basically makes turning the knobs min -> max take forever (unless the original encoders have *a lot* of PPRs).
 I haven't listened in on the original remote, but I've decided that this "fine tuning" or 
-"let's turn that sucker" approach seems to work close to the original.
+"let's turn that sucker" depending on tick number approach seems to work close to the original.
 
 Easiest way to get this going is to install MiniCore in Arduino IDE.
 
@@ -23,6 +23,7 @@ Yet Another Arduino PcInt Library (LGPL license):
 * PinChangeInterruptBoards.h
 * YetAnotherPcInt.cpp
 * YetAnotherPcInt.h
+
 Full library here: https://github.com/paulo-raca/YetAnotherArduinoPcIntLibrary 
 
 This is used to control the rotary encoders for pin change interrupts. 
@@ -31,6 +32,7 @@ The Atmega328PB is not natively supported by this library, so I've patched it in
 MCP23S17 (Unknown license):
 * MCP23S17.cpp
 * MCP23S17.h
+
 Full library here: https://github.com/n0mjs710/MCP23S17
 
 This is used to speak with the MCP23S17 SPI I/O expanders. Since I used SPI1, I had to patch this in.
