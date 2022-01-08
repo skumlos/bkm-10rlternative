@@ -8,6 +8,8 @@ up pins for porting to regular Atmega328P/Arduino Nano 3.0 board.
 
 Plans on memory card stuff for firmware updates and such via SD cards, is planned, at least to be researched.
 
+Inspired by Aaron Bonhams BKM-10Rduino, which is genious!
+
 (2022) Martin Hejnfelt, martin@hejnfelt.com
 
 https://www.immerhax.com 
