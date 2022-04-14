@@ -1,4 +1,11 @@
-19409100064623138
+19417106449554420
+BNC-THT
+BNC-THT
+
+
+0
+4
+2
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -54942,6 +54949,13 @@ L_Toroid Vertical series Radial pin pitch 31.80mm  length 67.6mm width 36.1mm Vi
 0
 2
 2
+JS202011SCQN
+JS202011SCQN
+
+
+0
+6
+6
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
@@ -59695,6 +59709,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PTS645
+PTS645
+
+
+0
+4
+3
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -77720,13 +77741,13 @@ Logo WEEE
 0
 0
 0
-TL-1240
-TL-1240
+TX24-100R-LT-H1E
+TX24-100R-LT-H1E
 
 
 0
-6
-6
+102
+101
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -83033,6 +83054,20 @@ varistor SIOV
 0
 2
 2
+keystone-7794
+7794-X
+
+
+0
+4
+1
+max10-eval
+max-10-eval
+
+
+0
+80
+59
 standard-pin-64p-ra
 STANDARD-PIN-64P-RA
 

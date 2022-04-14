@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name TL-1240)(type KiCad)(uri ${KIPRJMOD}/TL-1240.pretty)(options "")(descr ""))
+  (lib (name MEM2061)(type KiCad)(uri ${KIPRJMOD}/MEM2061.pretty)(options "")(descr ""))
+  (lib (name TL-1265)(type KiCad)(uri ${KIPRJMOD}/TL-1265.pretty)(options "")(descr ""))
 )
